@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Srai Shazada Money Transfer - Secure and Fast Online Transactions</title>
+        <title>Srai Shazada Money Transfer ZAHID- Secure and Fast Online Transactions</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
