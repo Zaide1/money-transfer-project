@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Money Transfer
+          money Transfer
         </h1>
 
         <p className={styles.description}>
