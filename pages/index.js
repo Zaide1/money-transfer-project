@@ -10,7 +10,7 @@ export default function Home() {
         <title>Srai Shazada Money Transfer - Secure and Fast Online Transactions</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      {/* create nav bar*/}
       <main className={styles.main}>
         <div className={styles.textWrapper}>
         <h1 className={styles.title}>
