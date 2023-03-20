@@ -2,8 +2,38 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
+
+
+
+
+
 
 export default function Home() {
+  // Code for img sliding in
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
+  return (
+    <div className={styles.container}>
+      {isVisible && (
+        <div className={styles.imageWrapper}>
+          <Image
+            src="../images/cash.png"
+            alt="My Image"
+            width={400}
+            height={300}
+            className={styles.image}
+          />
+        </div>
+      )}
+    </div>
+  );
   return (
     <div className={styles.container}>
       <Head>
